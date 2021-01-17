@@ -1,0 +1,19 @@
+{
+  "name": "charly-quiz",
+  "version": "1.0.0",
+  "description": "Trivia quiz with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonorpan/charly-quiz.git"
+  },
+  "author": "Leonora Panagiotidou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonorpan/charly-quiz/issues"
+  },
+  "homepage": "https://github.com/leonorpan/charly-quiz#readme"
+}
