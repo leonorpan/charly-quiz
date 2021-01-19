@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    p(style="position: absolute; top: 20px; left: 20px;") Round: #{round}
+    p(style="position: absolute; top: 20px; right: 20px;") Score: #{score}
+    p Category: #{question.category.title}
+    h1 #{question.question}
+    form(action='/answer/' + question.id, method="post")
+        label(for="answer" style="display: block;") You answer:
+        input(id="answer", type="text", name="answer_field")
+        input(hidden, name="round", value=round)
+        button(type="submit", style="display: block; margin: 10px 0; padding: 5px;") Submit answer
